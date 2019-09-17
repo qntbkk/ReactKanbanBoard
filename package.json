@@ -1,0 +1,47 @@
+{
+  "name": "reactkanbanboard",
+  "version": "1.0.0",
+  "description": "Drag and drop react kanban board",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "node ./node_modules/gulp/bin/gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "react",
+    "mendix",
+    "widget"
+  ],
+  "author": "Tony",
+  "license": "MIT",
+  "homepage": "",
+  "devDependencies": {
+    "@types/dojo": "^1.9.41",
+    "@types/react": "^16.9.2",
+    "@types/react-dom": "^16.9.0",
+    "@types/react-router-dom": "^4.3.5",
+    "gulp": "^3.9.1",
+    "gulp-clean": "^0.3.2",
+    "gulp-string-replace": "^1.1.1",
+    "gulp-tslint": "^8.1.3",
+    "gulp-typescript": "^3.2.4",
+    "gulp-zip": "^4.0.0",
+    "mendix-client": "^7.15.8",
+    "merge2": "^1.2.2",
+    "react": "^16.8.0",
+    "react-dom": "^16.5.0",
+    "run-sequence": "^2.2.1",
+    "typescript": "^2.9.2",
+    "webpack": "^4.17.2",
+    "webpack-stream": "^5.1.1"
+  },
+  "dependencies": {
+    "@lourenci/react-kanban": "^0.11.3",
+    "natives": "^1.1.6",
+    "styled-components": "^4.3.2"
+  }
+}

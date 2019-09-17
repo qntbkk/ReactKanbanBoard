@@ -1,0 +1,19 @@
+{
+    "compileOnSave": false,
+    "compilerOptions": {
+        "module": "amd",
+        "moduleResolution": "node",
+        "target": "es5",
+        "strictNullChecks": true,
+        "alwaysStrict": true,
+        "noUnusedParameters": true,
+        "jsx": "react",
+        "skipLibCheck": true,
+        "noImplicitReturns": true,
+        "noUnusedLocals": true,
+        "allowUnreachableCode": false,
+        "types": [
+            "mendix-client"
+        ]
+    }
+}

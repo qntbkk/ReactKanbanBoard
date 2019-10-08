@@ -10,5 +10,10 @@
             <category>Appearance</category>
             <description>The message visible within the widget.</description>
         </property>
+        <property key="cardsJSON" type="string" required="true" defaultValue="">
+            <caption>Cards</caption>
+            <category>Data</category>
+            <description>The cards visible within the widget. Has to be a JSON-string {lanes: [{id: 1, title: 'Backlog', cards: [{	id: 1, title: 'Card title 1', description: 'Card content'}]}]}</description>
+        </property>
     </properties>
 </widget>

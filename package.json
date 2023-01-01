@@ -36,8 +36,8 @@
     "react-dom": "^16.5.0",
     "run-sequence": "^2.2.1",
     "typescript": "^2.9.2",
-    "webpack": "^4.17.2",
-    "webpack-stream": "^5.1.1"
+    "webpack": "^5.75.0",
+    "webpack-stream": "^7.0.0"
   },
   "dependencies": {
     "@lourenci/react-kanban": "^0.11.3",
